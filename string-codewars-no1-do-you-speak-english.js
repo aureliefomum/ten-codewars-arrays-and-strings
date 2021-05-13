@@ -7,4 +7,8 @@
 // Upper or lower case letter does not matter -- "eNglisH" is also correct.
 
 // Return value as boolean values, true for the string to contains "English", false for it does not.
-// SOLUTION 1:
+// SOLUTION:
+function spEng(sentence){
+    let sentenceLower = sentence.toLowerCase();
+    return sentenceLower.includes('english');
+  }
